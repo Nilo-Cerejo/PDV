@@ -1,6 +1,5 @@
 // Define a utilização do model pedidos e a dependência http-status
-const Clientes = require('../models/clientes');
-const Produtos = require('../models/produtos');
+
 const Pedidos = require('../models/pedidos');
 const status = require('http-status');
  

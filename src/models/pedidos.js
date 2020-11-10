@@ -28,8 +28,8 @@ const Pedidos = sequelize.define("pedidos", {
         type: Sequelize.STRING(100),       
     },
     quantidade: {
-        allowNull: false,
-        type: Sequelize.STRING(4)
+        allowNull: true,
+        type: Sequelize.INTEGER
         
     },
     
